@@ -147,6 +147,57 @@ str()  : Used to convert into string type
 
 format() : This function allows you to display data w.r.t. Specific format, as with connection strings. 
 
+Control Structures : Used to define the flow the flow of the program. 
+
+There are 2 types of control structures known as
+
+1) Branching 
+
+	if...else : Executes the statement(s) based on the condition
+
+		if (condition) :
+		    statement(s);
+                else:
+	            statement(s)
+
+2) Looping
+
+	while loop : This loop executes all the statements repeatedly until the condition remains true, if the condition remains false, then it comes out of the loop.
+
+	for every loop, basically there are 3 phases known as 
+
+		(I) Initialization
+
+		(ii) Condition
+
+		(iii) Increment/Decrement
+
+Initialization performed at the beginning of the loop
+
+Condition performed at the conditional part of loop
+
+Increment or decrement performed before closing the loop
+
+Continue keyword used to skip the remaining statements of current loop and go to the next iteration
+
+
+Python Functions : 
+
+A collection of related code to be written known as function. 
+By using functions, we can reuse or we can return any calculated value. 
+
+You can define any python function as
+
+def function_name(parameters):
+     #code
+
+you can call the function as
+
+function_name(parameters)
+
+
+
+
 
 
 
