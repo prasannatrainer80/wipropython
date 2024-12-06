@@ -1,0 +1,67 @@
+45 mins lunch break
+
+we resume by 1.45
+
+____________________
+
+Is python is case-sensitive 
+
+Which data type used to store values in key/value pair
+
+What is the output for 
+print("Hello",*2)
+
+Which Data Type will not allow any duplicates
+
+Python pass statement also known as null statement, we can use the pass statement as a placeholder as when in that context no need to write any code, then we need the help of pass
+
+
+import sys
+
+# write your answer here
+s = input()
+rev = s[::-1]
+print(rev)
+_____________________________________________________________________
+
+data = input()
+a = data.split()
+print(a)
+_____________________________________________________________________
+
+def check(n):
+    sum = 0
+    for i in range(1,n):
+        if n %i == 0:
+            sum = sum + i 
+
+    if sum == n:
+        print("{} is perfect".format(n))
+    else:
+        print("{} is not perfect".format(n))
+
+n=int(input())
+check(n)
+
+____________________________________________________________________________
+
+def fact(n):
+    if n <= 1:
+        return 1
+    else:
+        return n * fact(n-1)
+
+n=int(input())
+print(fact(n))
+
+__________________________________________________________________________
+
+def fibo(n): 
+ a,b = 0,1 
+ print(a,b,end=" ") 
+ for i in range(2,n): 
+c = a + b 
+print(c,end=" ") 
+a,b = b,c 
+num = int(input()) 
+fibo(num)
