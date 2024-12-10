@@ -1,0 +1,47 @@
+
+
+Data Structures are the way of organizing data so that it can be accessed more efficiently depending on the 
+situation.  These are the fundamentals of any programming language around which a program built. 
+
+Python helps to learn the fundamental of these data structures in a simpler way as compared to other programming
+languages.
+
+List : Python lists are just like arrays, declared in other languagtes which is ordered collection of data.
+
+it is very flexible as the items are not to be of same type.
+
+Create a class as Customer it contains
+	custId,
+        custName,
+        billAmounts 
+
+billAmounts will be list. 
+
+accept 2 objects and print Sum of billAmounts and Avg of billAmounts
+
+Sets allows you to store unordered collection of unique elements. Unlike lists sets will not allow any duplicate values. Each element in the set must be unique. 
+
+Sets are mutable, as you can add remove items after that its created. Sets are created using {}
+
+names={"Prasanna","Raj","Manoj"}
+print(names)
+
+Tuples are similar to List contains unordered data... To be represented using ().  Tuples are immutable. as once they are assigned we cannot modify or add 
+
+Dictionaries : Allows you to store data w.r.t. Key/Value pairs. It is an unordered, mutable and indexed collection, Each key in the dictionary is unique and matp to value. Dictionaries are often used to store data that is related, such as information associated with a specific entity or object, where you can quickly retrieve a value based on its key. 
+
+Python dictionary is an example of mapping type, A mapping object 'maps' the value of one object to another, To establish mapping between a key and a value, the colon(:) symbol is put between.
+
+employs={"empno":1,"Name":"Debashis","Salary:88225}
+
+The key Features of Dictionaries are : 
+______________________________________
+
+Unordered
+
+Mutable
+
+Indexed
+
+Unique Keys
+
