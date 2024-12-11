@@ -50,4 +50,78 @@ This concept is known as variable length keyword arguments.
 Recursion : If a function calls itself known as recursion. But its highly time complexing 
 algorithm.
 
+_______________________________________________________________________________________________________________________________
+
+
+Lambda Functions : If you want to write the code easier and concise way, then we need the help of lambda functions. 
+
+In python, we have lambda function which is a special type of function without the function name. 
+
+def show(self):
+   print("Hello")
+
+lambda: print("Hello")
+
+Python Lambda Function will be there w.r.t. Arguments 
+
+lambda argument(s) : expression
+
+argument(s) -> Any valiue passed to the lambda function
+
+expression -> What is the line of code to be written 
+
+def greet():
+  print("Hello"
+
+greet = lambda : print("Hello")
+
+greet()
+
+lambda w.r.t. Arguments to be passed 
+
+show = lambda name : print("Name is ", name)
+
+show("Arjit")
+
+add = lambda a, b : a + b
+
+print(add(12,5))
+
+
+Lambda Function supports single-line sometimes statements that return some value.  Good for performing short operations/data manipulations
+
+Using the Lambda function can sometime reduce the readability of the code
+
+map() function in python takes a function and a list as an argument. This map() function can be called with lambda function and the list of new list returns the modified data. 
+
+
+NumPy : 
+
+In python we have lists that serve purpose of arrays. 
+
+But lists are slow in process
+
+To overcome this problem, we need the help of NumPy framework
+
+It provides an array of objects faster than python lists
+
+The array object in NumPy called as ndarray, it provides a lot of supporting functions that make working with ndarray very easily
+
+
+NumPy arrays are stored in one continuous place in memory unlike lists. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
