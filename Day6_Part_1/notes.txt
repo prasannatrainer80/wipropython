@@ -1,0 +1,53 @@
+What are functions
+
+types of functions
+
+returnable
+non-returnable
+recursive
+lambda functions
+functions with *args
+functions with *kvargs
+Scope of variables
+Indexing, Slicing
+NumPy
+Arrays and Operations
+
+A python function is a block of code, that is reusable and performs a single, related action.  Functions provide better modularity for your application and high degree of code of reusing.
+
+There are various types of functions in python as
+
+(I) Built-In Functions 
+
+	Python standard library includes number of built-in functions.  Some of python's built-in functions are print(), sum(), len()
+These are functions available by default
+
+(ii) Functions with Built-In Modules 
+
+	The standard library also bundles the no.of modules like strings, numbers etc...
+
+(iii) User-Defined Functions 
+
+	In addition to the built-in functions we can create our own defined functions. 
+
+Default Arguments : 
+You can assign default values to the corresponding function parameters. If you don't pass any value, the default argument will be executed. 
+
+Default argument must be last argument, 
+
+
+Arbitrary or Variable-length Arguments
+
+You may need to process a function for more arguments than you specified while defining a function. These arguments are called variable-length arguments. Sometimes we don't known how many values to be passed within a method, 
+
+Example : If I have one method as attendance
+
+
+Python can accept multiple keyword arguments, better known as **kwargs
+
+This concept is known as variable length keyword arguments.
+
+Recursion : If a function calls itself known as recursion. But its highly time complexing 
+algorithm.
+
+
