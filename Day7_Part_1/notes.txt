@@ -1,0 +1,58 @@
+Python Pandas 
+
+	The term "Pandas" is a open source library for manipulation high-performance data in python.  The name of Pandas ensures Processing, Restructuring, Cleaning, Merging etc... It is necessary for data analysis, 
+
+Before Pandas, Python was able for information planning, however it just offered help of information analysis. It improves the data analysis capabilities. Regardless of the source of data, it can carry out the cruicial steps for data processing. 
+
+Key Features of Pandas
+
+	It has a DataFrame object that is quick and effective, with both standard and custom indexing
+
+	Utilized for reshaping and turning of the information indexes
+
+	For aggregations and transformations, group the data
+
+	Manage the data sets multiple operations, including subsetting, slicing, filtering, groupBy, reordering and reshaping
+
+	It incorporates with different libraries like SciPy and scikit
+
+Pandas is having major 2 units known as 
+
+(I) Series
+
+(ii) Data Frame
+
+To start with pandas, we need to import as
+
+import pandas as pd
+import numpy as np
+
+
+Series : It is a one-dimensional array capable of storing variety of data types is how it is defined. 
+
+The data will be either List, Dictionary, Scalar value
+
+You can create a Series in Panda as
+
+Series()
+
+We need to import pandas and numpy libraries with alias, Then we have taken a variable named to store the array of values.  These values to be converted into Pandas Series using pd.Series() method. The Series has printed by calling print() method 
+
+Python Pandas DataFrame
+
+It is generally utilized information-design of pandas and works with two-layered with name.  This method for storing data, Dataframe has dictinct indexes as row index and column index
+
+In Pandas Series, we have various options as
+
+Series.index  : It defines the Series for indexes 
+
+Series.shape : It returns the tuple of shape on data
+
+Series.dtype : It returns the data type of data
+
+Series.size : It returns size of the data
+
+Series.itemsize
+
+
+
