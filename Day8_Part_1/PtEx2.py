@@ -1,0 +1,26 @@
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv("d:/csv/Employ_Data.csv")
+print(df)
+print()
+res1=df.pivot_table(index="Name",columns='Dept',values='Salary')
+print(res1)
+res2=df.pivot_table(index="Gender",columns='Name',values='Salary')
+print(res2)
+res3=df.pivot_table(index="Gender",columns='Name',values='Salary')
+print(res3)
+res4=df.pivot_table(index="Dept",values='Salary',aggfunc='mean')
+print(res4)
+print("-----------------------------------sum-----------------------------")
+res4=df.pivot_table(index="Dept",values='Salary',aggfunc='sum')
+print(res4)
+res5=df.pivot_table(index="Dept",values='Salary',aggfunc='count')
+print(res5)
+res6=df.pivot_table(index="Dept",values='Salary',aggfunc='max')
+print(res6)
+res7=df.pivot_table(index="Dept",values='Salary',aggfunc='min')
+print(res7)
+res8=df.pivot_table(index=["Gender","Dept"],columns='Name',values='Salary')
+print(res8)
+
